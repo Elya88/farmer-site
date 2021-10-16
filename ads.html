@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="utf-8">
+    <title>API Manager</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link type="text/css" href="./assets/css/styles.min.css" rel="stylesheet">
+  </head>
+  <body class="body-account">
+    <header class="py16 bgct z5 pr">
+      <div class="container-fluid pr-L">
+        <div class="R gx16">
+          <div class="C2">
+            <div class="df aic">
+              <button class="button dn-L mr16 cw" type="button" data-toggle="collapse" data-target="#menu" aria-expanded="false" aria-controls="menu">
+                <svg class="icon wh24">
+                  <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#m-toggler"></use>
+                </svg>
+              </button><a class="df mb4-L" href="#">
+                <svg class="icon wh112 cb">
+                  <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#farmer3"></use>
+                </svg></a>
+            </div>
+          </div>
+          <div class="C ps">
+            <div class="df gx16 aife fdc">
+              <div class="df aic gx16 mb52">
+                <div class="df fdr"> <a class="cw mr32" href="register.html">Регистрация</a>
+                  <div class="dropdown df">
+                    <div class="cw mr4">Log in</div>
+                    <button class="button cw" id="dropdownLogin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <svg class="icon wh18 cb5">
+                        <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#m-user-oren"></use>
+                      </svg>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right p0 oh m0 miw336 p0" aria-labelledby="dropdownLogin">
+                      <div class="p24">
+                        <div class="R">
+                          <div class="C0 tac">
+                            <div class="mb16"><img src="./assets/img/temp/t-avatar.png" alt=""></div>
+                            <button class="button cb">Edit</button>
+                          </div>
+                          <div class="C gy8">
+                            <div class="R gx8">
+                              <div class="C cli">Name:</div>
+                              <div class="C fw7">John John</div>
+                            </div>
+                            <div class="R gx8">
+                              <div class="C cli">Company:</div>
+                              <div class="C fw7">Bayer</div>
+                            </div>
+                            <div class="R gx8">
+                              <div class="C cli">Phone:</div>
+                              <div class="C fw7">80993332211</div>
+                            </div>
+                            <div class="R gx8">
+                              <div class="C cli">Adress:</div>
+                              <div class="C fw7">NY</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="p16 tac bt">
+                        <button class="button">Log Out</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <input class="form-control bn brl8 brr0 py8 px16 fs16 fs16-M cdi" type="text" placeholder="Найдите у нас на сайте....">
+              <button class="button cli pa r10 tsty-50p t60p" type="button">
+                <svg class="icon wh12">
+                  <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#m-search"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="collapse db-L pa ps-L t100p t0 z5 w100p pt20-L bgct" id="menu">
+            <div class="px16 px0-L py32 py0-L">
+              <div class="tac df fdc fdr-L jcc gx0 gx24-M gx32-X gy12 fw6 fs16">
+                <div class="dn-M mt-32">
+                  <div class="pr">
+                    <input class="form-control pl20 pr32 h36 py0 brp bn lh1 fs14 w100p" type="text" placeholder="Domain Name">
+                    <button class="button cli pa r12 tsty-50p t50p" type="button">
+                      <svg class="icon wh14">
+                        <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#m-search"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <div>
+                  <div class="dropdown"><a class="tdn-h cw dropdown-toggle" id="headerMenu1" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ТЕХНОЛОГИИ</a>
+                    <div class="dropdown-menu dropdown-menu-left p0 oh m0" aria-labelledby="headerMenu1"><a class="ci db px24 py8 bb wsnw tdn-h bgcb3-h" href="technologies.html">Агротехнологии</a><a class="ci db px24 py8 bb wsnw tdn-h bgcb3-h" href="#">Рыбное хозяйство</a><a class="ci db px24 py8 bb wsnw tdn-h bgcb3-h" href="#">Животноводство</a><a class="ci db px24 py8 bb wsnw tdn-h bgcb3-h" href="#">Птицеводство</a><a class="ci db px24 py8 bb wsnw tdn-h bgcb3-h" href="#">Другие технологии</a></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="dropdown"><a class="tdn-h cw dropdown-toggle" id="headerMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ОБЪЯВЛЕНИЯ</a>
+                    <div class="dropdown-menu dropdown-menu-right p0 oh m0" aria-labelledby="headerMenu2"><a class="ci db px24 py8 bb wsnw tdn-h bgcb3-h" href="ads.html">Подать объявление</a><a class="ci db px24 py8 wsnw tdn-h bgcb3-h" href="#">Найти объявление</a></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="dropdown"><a class="tdn-h cw dropdown-toggle" id="headerMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ТЕХНИКА И ОБОРУДОВАНИЯ</a>
+                    <div class="dropdown-menu dropdown-menu-right p0 oh m0" aria-labelledby="headerMenu2"><a class="ci db px24 py8 bb wsnw tdn-h bgcb3-h" href="agrotech.html">Трактора</a><a class="ci db px24 py8 wsnw tdn-h bgcb3-h" href="#">Комбайны</a><a class="ci db px24 py8 wsnw tdn-h bgcb3-h" href="#">Посевные машины</a><a class="ci db px24 py8 wsnw tdn-h bgcb3-h" href="#">Доильные аппараты</a></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="dropdown"><a class="tdn-h cw dropdown-toggle" id="headerMenu3" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ТОВАРЫ И УСЛУГИ</a>
+                    <div class="dropdown-menu dropdown-menu-right p0 oh m0" aria-labelledby="headerMenu3"><a class="ci db px24 py8 bb wsnw tdn-h bgcb3-h" href="foods.html">Товары</a><a class="ci db px24 py8 wsnw tdn-h bgcb3-h" href="#">Услуги</a></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="dropdown"><a class="tdn-h cw dropdown-toggle" id="headerMenu4" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ФИРМЫ И КОМПАНИИ</a>
+                    <div class="dropdown-menu dropdown-menu-right p0 oh m0" aria-labelledby="headerMenu4"><a class="ci db px24 py8 bb wsnw tdn-h bgcb3-h" href="#">Госкомпании</a><a class="ci db px24 py8 bb wsnw tdn-h bgcb3-h" href="companies.html">Фирмы</a><a class="ci db px24 py8 wsnw tdn-h bgcb3-h" href="#">Иностранные компании</a></div>
+                  </div>
+                </div>
+                <div><a class="tdn-h cw" href="/about-us/">О НАС</a></div>
+                <div><a class="tdn-h cw" href="/hosting/">FAQ</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="z4">
+      <div class="pb48">
+        <div class="container-fluid"><a class="dn-L button bgcli px16 py8 mt24 w100p" href="#side" data-toggle="collapse">
+            <svg class="icon wh20">
+              <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#m-toggler"></use>
+            </svg>
+            <div class="ml12 fs16">Account Menu</div></a>
+          <div class="R g28">
+            <div class="collapse db-L C0-L ord1 ord0-L" id="side">
+                            <div class="bgcb5 pt32 pt88-L pb24 br4 oh">
+                              <div class="gy8">
+                                <div>
+                                                <div class="ttu fs12 ffp fw6 cdi mb8 py8 px24">Account Options</div>
+                                  <div><a class="df fw6 px24 py8 bgcub-h tdn-hf lh14 bgcub cdi fw7">
+                                                    <div class="df jcc aic wh20 mr12">
+                                                      <svg class="icon wh24">
+                                                        <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#l-home"></use>
+                                                      </svg>
+                                                    </div>
+                                                    <div>Dashboard</div></a><a class="df fw6 px24 py8 bgcub-h tdn-hf lh14  ci" href="#">
+                                                    <div class="df jcc aic wh20 mr12">
+                                                      <svg class="icon wh24">
+                                                        <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#l-settings"></use>
+                                                      </svg>
+                                                    </div>
+                                                    <div>Настройки аккаунта</div></a>
+                                  </div>
+                                </div>
+                                <div>
+                                                <div class="ttu fs12 ffp fw6 cdi mb8 py8 px24">Domains</div>
+                                  <div><a class="df fw6 px24 py8 bgcub-h tdn-hf lh14  ci" href="#">
+                                                    <div class="df jcc aic wh20 mr12">
+                                                      <svg class="icon wh24">
+                                                        <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#l-domain"></use>
+                                                      </svg>
+                                                    </div>
+                                                    <div>Чаты</div></a><a class="df fw6 px24 py8 bgcub-h tdn-hf lh14  ci" href="#">
+                                                    <div class="df jcc aic wh20 mr12">
+                                                      <svg class="icon wh24">
+                                                        <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#l-arrow"></use>
+                                                      </svg>
+                                                    </div>
+                                                    <div>Сообщения</div></a><a class="df fw6 px24 py8 bgcub-h tdn-hf lh14  ci" href="#">
+                                                    <div class="df jcc aic wh20 mr12">
+                                                      <svg class="icon wh24">
+                                                        <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#l-refresh"></use>
+                                                      </svg>
+                                                    </div>
+                                                    <div>Погода</div></a><a class="df fw6 px24 py8 bgcub-h tdn-hf lh14  ci" href="#">
+                                                    <div class="df jcc aic wh20 mr12">
+                                                      <svg class="icon wh24">
+                                                        <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#l-currensy"></use>
+                                                      </svg>
+                                                    </div>
+                                                    <div>Курс валют</div></a><a class="df fw6 px24 py8 bgcub-h tdn-hf lh14  ci" href="#">
+                                                    <div class="df jcc aic wh20 mr12">
+                                                      <svg class="icon wh24">
+                                                        <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#l-link"></use>
+                                                      </svg>
+                                                    </div>
+                                                    <div>Цены на рынках</div></a><a class="df fw6 px24 py8 bgcub-h tdn-hf lh14  ci" href="#">
+                                                    <div class="df jcc aic wh20 mr12">
+                                                      <svg class="icon wh24">
+                                                        <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#l-calendar"></use>
+                                                      </svg>
+                                                    </div>
+                                                    <div>Мои покупки</div></a><a class="df fw6 px24 py8 bgcub-h tdn-hf lh14  ci" href="#">
+                                                    <div class="df jcc aic wh20 mr12">
+                                                      <svg class="icon wh24">
+                                                        <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#l-label-red"></use>
+                                                      </svg>
+                                                    </div>
+                                                    <div>Дисконтная программа</div></a><a class="df fw6 px24 py8 bgcub-h tdn-hf lh14  ci" href="#">
+                                                    <div class="df jcc aic wh20 mr12">
+                                                      <svg class="icon wh24">
+                                                        <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#l-main"></use>
+                                                      </svg>
+                                                    </div>
+                                                    <div>Мои объявления</div></a>
+                                  </div>
+                                </div>
+                                <div class="tac dn-L"><a href="#side" data-toggle="collapse">Hide Account Menu</a></div>
+                              </div>
+                            </div>
+            </div>
+            <div class="C pt20 ord1 pt76-L oh">
+              <div class="ns-page-title">
+                <div class="R">
+                  <div class="C0">
+                    <h1 class="ns-page-title__h1">Объявления</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="R aic jcc mb20">
+                <div class="C">
+                  <div class="fs22">Заголовок<span class="cr fs16">*</span></div>
+                </div>
+                <div class="C">
+                  <input class="form-control form-control-md" type="search" name="">
+                </div>
+              </div>
+              <div class="R aic jcc mb20">
+                <div class="C">
+                  <div class="fs22">Выбрать категорию<span class="cr fs16">*</span></div>
+                </div>
+                <div class="C">
+                  <select class="form-control form-control-md">
+                    <option>Услуги</option>
+                    <option>Товары</option>
+                  </select>
+                </div>
+              </div>
+              <div class="R aic jcc mb20">
+                <div class="C">
+                  <div class="fs22">Содержание объявления<span class="cr fs16">*</span></div>
+                </div>
+                <div class="C">
+                  <textarea class="form-control form-control-md"></textarea>
+                </div>
+              </div>
+              <div class="R aic jcc mb20">
+                <div class="C">
+                  <div class="fs22">Добавить фото<span class="cr fs16">*</span></div>
+                </div>
+                <div class="C">
+                  <button class="button button-md bgcg">Добавить фото
+                    <svg class="icon wh12 cr ml4">
+                      <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#m-plus-dion"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="R aic jcc mb20">
+                <div class="C">
+                  <div class="fs22">Ваша страна / город:<span class="cr fs16">*</span></div>
+                </div>
+                <div class="C">
+                  <select class="form-control form-control-md">
+                    <option>Киргизстан</option>
+                    <option>Россия</option>
+                    <option>Узбекистан</option>
+                    <option>Казахстан</option>
+                  </select>
+                </div>
+              </div>
+              <div class="R aic jcc mb20">
+                <div class="C">
+                  <div class="fs22">Точный адрес:</div>
+                </div>
+                <div class="C">
+                  <input class="form-control form-control-md" type="text">
+                </div>
+              </div>
+              <div class="R aic jcc mb20">
+                <div class="C">
+                  <div class="fs22">Ваши контакты (телефон)<span class="cr fs16">*</span></div>
+                </div>
+                <div class="C">
+                  <input class="form-control form-control-md" type="text">
+                </div>
+              </div>
+              <div class="R aic jcc mb20">
+                <div class="C">
+                  <div class="fs22">Ваш Email</div>
+                </div>
+                <div class="C">
+                  <input class="form-control form-control-md" type="text">
+                </div>
+              </div>
+              <div class="R gx4 aic">
+                <div class="C0">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" id="customCheck4" type="checkbox">
+                    <label class="custom-control-label" for="customCheck4"></label>
+                  </div>
+                </div>
+                <div class="C"><a class="fs18" href="#">С пользовательским соглашением </a><span class="fs18">согласен</span></div>
+              </div>
+              <h2 class="mt40">Как правильно подать бесплатное объявление:</h2>
+              <ul>
+                <li>Если Вы хотите привлечь особое внимание к своему объявлению, Вам нужно составить предложение таким образом, чтобы оно выделялось из массы похожих, то есть было грамотным и привлекательным.</li>
+                <li>Мы настоятельно рекомендуем не давать ложную информацию, а также не преувеличивать и не искажать ее. В Вашем распоряжении всего несколько сотен символов для подачи бесплатной рекламы. Поэтому не тратьте их впустую и предоставьте достоверную информацию, расписав объективные свойства и качества продаваемого продукта.</li>
+                <li>Хорошее объявление предполагает максимально четкий, лаконичный и интригующий заголовок.</li>
+                <li>Помните, что подать объявление в наши дни совсем не проблема. Именно поэтому Вам нужно сделать свое деловое предложение примечательным и коротким. В таком случае Вас увидят и прочитают до конца.</li>
+                <li>Как говорят эксперты, чем больше будет информации, тем выше шансы на успех. Поэтому будьте предельно информативны в плане таких важных моментов, как цена и свойства, достоинства и недостатки, дата выпуска и срок использования продукта.</li>
+                <li>Наличие в объявлении фотографии предоставит потенциальным покупателям возможность визуального знакомства с Вашим товаром или услугой. Это несомненный +1 к рейтингу Вашего объявления.</li>
+                <li>Наконец, позаботьтесь об удобных контактах. Оставьте несколько номеров телефонов (и городской номер, и мобильный), а также свои координаты в Интернете (e-mail, имя в skype, номер icq, или id в соцсети). Тогда Вам обеспечен быстрый отклик на запрос.</li>
+              </ul>
+              <p>Что ж, дерзайте! Составляйте и размещайте свои объявления бесплатно на нашей доске объявлений №1, а мы максимально поспособствуем удаче всех Ваших сделок.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./assets/js/scripts.min.js"></script>
+  </body>
+</html>

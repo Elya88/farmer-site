@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="utf-8">
+    <title>API Manager</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link type="text/css" href="./assets/css/styles.min.css" rel="stylesheet">
+  </head>
+  <body class="body-account">
+    <header class="py16 bgct z5 pr">
+      <div class="container-fluid pr-L">
+        <div class="R gx16">
+          <div class="C2">
+            <div class="df aic">
+              <button class="button dn-L mr16 cw" type="button" data-toggle="collapse" data-target="#menu" aria-expanded="false" aria-controls="menu">
+                <svg class="icon wh24">
+                  <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#m-toggler"></use>
+                </svg>
+              </button><a class="df mb4-L" href="#">
+                <svg class="icon wh112 cb">
+                  <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#farmer3"></use>
+                </svg></a>
+            </div>
+          </div>
+          <div class="C ps">
+            <div class="df gx16 aife fdc">
+              <div class="df aic gx16 mb52">
+                <div class="df fdr"> <a class="cw mr32" href="register.html">Регистрация</a>
+                  <div class="dropdown df">
+                    <div class="cw mr4">Log in</div>
+                    <button class="button cw" id="dropdownLogin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <svg class="icon wh18 cb5">
+                        <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#m-user-oren"></use>
+                      </svg>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right p0 oh m0 miw336 p0" aria-labelledby="dropdownLogin">
+                      <div class="p24">
+                        <div class="R">
+                          <div class="C0 tac">
+                            <div class="mb16"><img src="./assets/img/temp/t-avatar.png" alt=""></div>
+                            <button class="button cb">Edit</button>
+                          </div>
+                          <div class="C gy8">
+                            <div class="R gx8">
+                              <div class="C cli">Name:</div>
+                              <div class="C fw7">John John</div>
+                            </div>
+                            <div class="R gx8">
+                              <div class="C cli">Company:</div>
+                              <div class="C fw7">Bayer</div>
+                            </div>
+                            <div class="R gx8">
+                              <div class="C cli">Phone:</div>
+                              <div class="C fw7">80993332211</div>
+                            </div>
+                            <div class="R gx8">
+                              <div class="C cli">Adress:</div>
+                              <div class="C fw7">NY</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="p16 tac bt">
+                        <button class="button">Log Out</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <input class="form-control bn brl8 brr0 py8 px16 fs16 fs16-M cdi" type="text" placeholder="Найдите у нас на сайте....">
+              <button class="button cli pa r10 tsty-50p t60p" type="button">
+                <svg class="icon wh12">
+                  <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#m-search"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="collapse db-L pa ps-L t100p t0 z5 w100p pt20-L bgct" id="menu">
+            <div class="px16 px0-L py32 py0-L">
+              <div class="tac df fdc fdr-L jcc gx0 gx24-M gx32-X gy12 fw6 fs16">
+                <div class="dn-M mt-32">
+                  <div class="pr">
+                    <input class="form-control pl20 pr32 h36 py0 brp bn lh1 fs14 w100p" type="text" placeholder="Domain Name">
+                    <button class="button cli pa r12 tsty-50p t50p" type="button">
+                      <svg class="icon wh14">
+                        <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#m-search"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <div>
+                  <div class="dropdown"><a class="tdn-h cw dropdown-toggle" id="headerMenu1" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ТЕХНОЛОГИИ</a>
+                    <div class="dropdown-menu dropdown-menu-left p0 oh m0" aria-labelledby="headerMenu1"><a class="ci db px24 py8 bb wsnw tdn-h bgcb3-h" href="technologies.html">Агротехнологии</a><a class="ci db px24 py8 bb wsnw tdn-h bgcb3-h" href="#">Рыбное хозяйство</a><a class="ci db px24 py8 bb wsnw tdn-h bgcb3-h" href="#">Животноводство</a><a class="ci db px24 py8 bb wsnw tdn-h bgcb3-h" href="/marketplace/">Птицеводство</a><a class="ci db px24 py8 bb wsnw tdn-h bgcb3-h" href="/pricing/">Другие технологии</a></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="dropdown"><a class="tdn-h cw dropdown-toggle" id="headerMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ОБЪЯВЛЕНИЯ</a>
+                    <div class="dropdown-menu dropdown-menu-right p0 oh m0" aria-labelledby="headerMenu2"><a class="ci db px24 py8 bb wsnw tdn-h bgcb3-h" href="ads.html">Подать объявление</a><a class="ci db px24 py8 wsnw tdn-h bgcb3-h" href="#">Найти объявление</a></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="dropdown"><a class="tdn-h cw dropdown-toggle" id="headerMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ТЕХНИКА И ОБОРУДОВАНИЯ</a>
+                    <div class="dropdown-menu dropdown-menu-right p0 oh m0" aria-labelledby="headerMenu2"><a class="ci db px24 py8 bb wsnw tdn-h bgcb3-h" href="agrotech.html">Трактора</a><a class="ci db px24 py8 wsnw tdn-h bgcb3-h" href="#">Комбайны</a><a class="ci db px24 py8 wsnw tdn-h bgcb3-h" href="#">Посевные машины</a><a class="ci db px24 py8 wsnw tdn-h bgcb3-h" href="#">Доильные аппараты</a></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="dropdown"><a class="tdn-h cw dropdown-toggle" id="headerMenu3" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ТОВАРЫ И УСЛУГИ</a>
+                    <div class="dropdown-menu dropdown-menu-right p0 oh m0" aria-labelledby="headerMenu3"><a class="ci db px24 py8 bb wsnw tdn-h bgcb3-h" href="foods.html">Товары</a><a class="ci db px24 py8 wsnw tdn-h bgcb3-h" href="#">Услуги</a></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="dropdown"><a class="tdn-h cw dropdown-toggle" id="headerMenu4" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ФИРМЫ И КОМПАНИИ</a>
+                    <div class="dropdown-menu dropdown-menu-right p0 oh m0" aria-labelledby="headerMenu4"><a class="ci db px24 py8 bb wsnw tdn-h bgcb3-h" href="#">Госкомпании</a><a class="ci db px24 py8 bb wsnw tdn-h bgcb3-h" href="companies.html">Фирмы</a><a class="ci db px24 py8 wsnw tdn-h bgcb3-h" href="#">Иностранные компании</a></div>
+                  </div>
+                </div>
+                <div><a class="tdn-h cw" href="/about-us/">О НАС</a></div>
+                <div><a class="tdn-h cw" href="/hosting/">FAQ</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="z4">
+      <div class="pb48">
+        <div class="container-fluid"><a class="dn-L button bgcli px16 py8 mt24 w100p" href="#side" data-toggle="collapse">
+            <svg class="icon wh20">
+              <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#m-toggler"></use>
+            </svg>
+            <div class="ml12 fs16">Account Menu</div></a>
+          <div class="R g28">
+            <div class="collapse db-L C0-L ord1 ord0-L" id="side">
+                            <div class="bgcb5 pt32 pt88-L pb24 br4 oh">
+                              <div class="gy8">
+                                <div>
+                                                <div class="ttu fs12 ffp fw6 cdi mb8 py8 px24">Account Options</div>
+                                  <div><a class="df fw6 px24 py8 bgcub-h tdn-hf lh14 bgcub cdi fw7">
+                                                    <div class="df jcc aic wh20 mr12">
+                                                      <svg class="icon wh24">
+                                                        <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#l-home"></use>
+                                                      </svg>
+                                                    </div>
+                                                    <div>Dashboard</div></a><a class="df fw6 px24 py8 bgcub-h tdn-hf lh14  ci" href="#">
+                                                    <div class="df jcc aic wh20 mr12">
+                                                      <svg class="icon wh24">
+                                                        <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#l-settings"></use>
+                                                      </svg>
+                                                    </div>
+                                                    <div>Настройки аккаунта</div></a>
+                                  </div>
+                                </div>
+                                <div>
+                                                <div class="ttu fs12 ffp fw6 cdi mb8 py8 px24">Domains</div>
+                                  <div><a class="df fw6 px24 py8 bgcub-h tdn-hf lh14  ci" href="#">
+                                                    <div class="df jcc aic wh20 mr12">
+                                                      <svg class="icon wh24">
+                                                        <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#l-domain"></use>
+                                                      </svg>
+                                                    </div>
+                                                    <div>Чаты</div></a><a class="df fw6 px24 py8 bgcub-h tdn-hf lh14  ci" href="#">
+                                                    <div class="df jcc aic wh20 mr12">
+                                                      <svg class="icon wh24">
+                                                        <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#l-arrow"></use>
+                                                      </svg>
+                                                    </div>
+                                                    <div>Сообщения</div></a><a class="df fw6 px24 py8 bgcub-h tdn-hf lh14  ci" href="#">
+                                                    <div class="df jcc aic wh20 mr12">
+                                                      <svg class="icon wh24">
+                                                        <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#l-refresh"></use>
+                                                      </svg>
+                                                    </div>
+                                                    <div>Погода</div></a><a class="df fw6 px24 py8 bgcub-h tdn-hf lh14  ci" href="#">
+                                                    <div class="df jcc aic wh20 mr12">
+                                                      <svg class="icon wh24">
+                                                        <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#l-currensy"></use>
+                                                      </svg>
+                                                    </div>
+                                                    <div>Курс валют</div></a><a class="df fw6 px24 py8 bgcub-h tdn-hf lh14  ci" href="#">
+                                                    <div class="df jcc aic wh20 mr12">
+                                                      <svg class="icon wh24">
+                                                        <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#l-link"></use>
+                                                      </svg>
+                                                    </div>
+                                                    <div>Цены на рынках</div></a><a class="df fw6 px24 py8 bgcub-h tdn-hf lh14  ci" href="#">
+                                                    <div class="df jcc aic wh20 mr12">
+                                                      <svg class="icon wh24">
+                                                        <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#l-calendar"></use>
+                                                      </svg>
+                                                    </div>
+                                                    <div>Мои покупки</div></a><a class="df fw6 px24 py8 bgcub-h tdn-hf lh14  ci" href="#">
+                                                    <div class="df jcc aic wh20 mr12">
+                                                      <svg class="icon wh24">
+                                                        <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#l-label-red"></use>
+                                                      </svg>
+                                                    </div>
+                                                    <div>Дисконтная программа</div></a><a class="df fw6 px24 py8 bgcub-h tdn-hf lh14  ci" href="#">
+                                                    <div class="df jcc aic wh20 mr12">
+                                                      <svg class="icon wh24">
+                                                        <use xlink:href="./assets/img/icons/sprite/svg/sprite.svg#l-main"></use>
+                                                      </svg>
+                                                    </div>
+                                                    <div>Мои объявления</div></a>
+                                  </div>
+                                </div>
+                                <div class="tac dn-L"><a href="#side" data-toggle="collapse">Hide Account Menu</a></div>
+                              </div>
+                            </div>
+            </div>
+            <div class="C pt20 ord1 pt76-L oh">
+              <div class="ns-page-title">
+                <div class="R">
+                  <div class="C0">
+                    <h1 class="ns-page-title__h1">Агротехника</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="R">
+                <div class="C8">
+                  <div class="b w100p br5 p4 h100p df fdc"><img src="./assets/img/pages/technics/press-machine.jpg">
+                    <div class="tac h100p">
+                      <div class="fs22 cdi fw8 lh1 mt20">Универсальный пресс-подборщик для всех зеленых культур</div>
+                      <div class="fs20 cdi lh1 mt20 cdi">Камера вальцового типа обеспечивает высокую степень прессования и способная работать со всеми видами зеленых кормов.</div>
+                    </div>
+                    <div class="tac mt20"><a class="button bgcg button-md w-100p" href="#">Подробнее</a></div>
+                  </div>
+                </div>
+                <div class="C">
+                  <div class="b br5 p12 tac h100p df fdc">
+                    <div class="w100p"><img src="./assets/img/pages/technics/tractor.jpg" alt=""></div>
+                    <div class="h100p">
+                      <div class="mt20">
+                        <h4>Фронтальный погрузчик Т-209 «Секач»</h4>
+                      </div>
+                      <div class="mt40">
+                        <div class="fs16 lh14 fw8">800 кг грузоподъемности на МТЗ 82</div>
+                        <p>Отличное сочетание цены и качества! Простой и надежный погрузчик под МТЗ 82.1</p>
+                      </div>
+                    </div>
+                    <div class="tac mt32 mr20"><a class="button bgcg button-md" href="#">Подробнее</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="mt40"></div>
+              <div class="R">
+                <div class="C">
+                  <div class="b br5 p12 tac h100p df fdc">
+                    <div class="w-100p"><img src="./assets/img/pages/technics/naves.jpg" alt=""></div>
+                    <div class="h100p">
+                      <div class="mt20">
+                        <h4>Навесной опрыскиватель Standart 1000/15</h4>
+                      </div>
+                      <div class="mt40">
+                        <div class="fs16 lh14 fw8">Боитесь остаться без опрыскивателя в сезон?</div>
+                        <p>Только у нас всегда в наличии! Производство - Турция. ЗИП и карданный вал в комплекте.</p>
+                      </div>
+                    </div>
+                    <div class="tac mt32 mr20"><a class="button bgcg button-md" href="#">Подробнее</a></div>
+                  </div>
+                </div>
+                <div class="C">
+                  <div class="b br5 p12 tac h100p df fdc">
+                    <div class="w100p"><img src="./assets/img/pages/technics/kartoshka.jpg" alt=""></div>
+                    <div class="h100p">
+                      <div class="mt20">
+                        <h4>Загрузчик телескопический ЗТ-40</h4>
+                      </div>
+                      <div class="mt40">
+                        <div class="fs16 lh14 fw8">Загрузчик телескопический ЗТ-40</div>
+                        <p>Высота выгрузки 5,6 метра! Для загрузки овощей в контейнеры, бурты, транспортные средства.</p>
+                      </div>
+                    </div>
+                    <div class="tac mt32 mr20"><a class="button bgcg button-md" href="#">Подробнее</a></div>
+                  </div>
+                </div>
+                <div class="C">
+                  <div class="b br5 p12 tac h100p df fdc">
+                    <div class="w100p"><img src="./assets/img/pages/technics/razbrasivatel.jpg" alt=""></div>
+                    <div class="h100p">
+                      <div class="mt20">
+                        <h4>Разбрасыватель минеральных удобрений S-500</h4>
+                      </div>
+                      <div class="mt40">
+                        <div class="fs16 lh14 fw8">Самый дешевый разбрасыватель на рынке!</div>
+                        <p>Лейка на 500 л. Ширина разбрасывания регулируется от 6 до 12 м.</p>
+                      </div>
+                    </div>
+                    <div class="tac mt32 mr20"><a class="button bgcg button-md" href="#">Подробнее</a></div>
+                  </div>
+                </div>
+              </div>
+              <h1 class="my20">Рекомендуем посмотреть</h1>
+              <div class="R">
+                <div class="C">
+                  <div class="b br5 p12 tac h100p df fdc">
+                    <div class="w-100p"><img src="./assets/img/pages/technics/manipulator.jpg" alt=""></div>
+                    <div class="h100p">
+                      <div class="mt20">
+                        <h4>Погрузчик задненавесной АНТ-К</h4>
+                      </div>
+                      <div class="mt40">
+                        <div class="fs16 lh14 fw8">Идеальная комбинация!</div>
+                        <p>Погрузчик задненавесной АНТ-К + трактор + разбрасыватель удобрений = идеальная машина для работы.</p>
+                      </div>
+                    </div>
+                    <div class="tac mt32 mr20"><a class="button bgcg button-md" href="#">Подробнее</a></div>
+                  </div>
+                </div>
+                <div class="C">
+                  <div class="b br5 p12 tac h100p df fdc">
+                    <div class="w100p"><img src="./assets/img/pages/technics/razbros.jpg" alt=""></div>
+                    <div class="h100p">
+                      <div class="mt20">
+                        <h4>Разбрасыватель твердых органических удобрений N262/1</h4>
+                      </div>
+                      <div class="mt40">
+                        <div class="fs16 lh14 fw8">Вносит удобрения на ширину до 14 м за один проход!</div>
+                        <p>Объем для перевозки органических удобрений на 30% больше аналогов при одинаковой грузоподъемности. А это 20% экономии на ГСМ и сокращение времени на внесение удобрений.</p>
+                      </div>
+                    </div>
+                    <div class="tac mt32 mr20"><a class="button bgcg button-md" href="#">Подробнее</a></div>
+                  </div>
+                </div>
+                <div class="C">
+                  <div class="b br5 p12 tac h100p df fdc">
+                    <div class="w100p"><img src="./assets/img/pages/technics/naves1.jpg" alt=""></div>
+                    <div class="h100p">
+                      <div class="mt20">
+                        <h4>Универсальная тракторная навеска КАМА ELEPHANT 4000М</h4>
+                      </div>
+                      <div class="mt40">
+                        <div class="fs16 lh14 fw8">Равномерное распределение нагрузки гарантировано!</div>
+                        <p>Нужная опция для агрегатирования трактора, не имеющего трехточечной сцепки, с плугом или глубокорыхлителем.</p>
+                      </div>
+                    </div>
+                    <div class="tac mt32 mr20"><a class="button bgcg button-md" href="#">Подробнее</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./assets/js/scripts.min.js"></script>
+  </body>
+</html>
