@@ -1,2 +1,2 @@
 # farmer-site
- https://elya88.github.io/farmer-site/
+ https://elya88.github.io/farmer-site/ads.html
